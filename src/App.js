@@ -22,7 +22,7 @@ import Gulmohar from "./pages/gulmohar/Gulmohar";
 
 function App() {
   return (
-    <BrowserRouter basename="/hostels"> 
+    <BrowserRouter> 
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/alumi" element={<AlumiAffaris/>}/>
