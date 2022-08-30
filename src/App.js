@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -22,7 +22,7 @@ import Gulmohar from "./pages/gulmohar/Gulmohar";
 
 function App() {
   return (
-    <BrowserRouter> 
+    <HashRouter> 
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/alumi" element={<AlumiAffaris/>}/>
@@ -39,7 +39,7 @@ function App() {
         <Route path="/hygiene-committee" element={<Hygiene/>}/>
     </Routes>
     <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
