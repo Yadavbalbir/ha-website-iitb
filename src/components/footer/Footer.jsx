@@ -40,7 +40,7 @@ function Footer() {
 
       <div class="col-md-4 text-center offset-md-1 mb-1">
           <h5 className='text-primary'>Hostel Affairs, IIT Bombay</h5>
-          <img src="/HA-logo.jpg" className='w-50' alt="" />
+          <img src={process.env.PUBLIC_URL+"/HA-logo.jpg"} className='w-50' alt="" />
       </div>
     </div>
 

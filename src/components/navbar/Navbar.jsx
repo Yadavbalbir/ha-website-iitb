@@ -6,7 +6,7 @@ function Navbar() {
     <>
         <nav className="navbar navbar-expand-md navbar-dark" aria-label="Offcanvas navbar large">
             <div className="container container-fluid">
-                <Link className="navbar-brand" to="/"><img src="/HA-logo.jpg" height="40px" alt="" /> Hostel Affairs</Link>
+                <Link className="navbar-brand" to="/"><img src={process.env.PUBLIC_URL +"/HA-logo.jpg"} height="40px" alt="" /> Hostel Affairs</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
                     aria-controls="offcanvasNavbar2">
                     <span className="navbar-toggler-icon"></span>

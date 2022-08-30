@@ -10,7 +10,7 @@ function HA2223() {
               <div class="col m-auto">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-2 pb-3 text-shadow-1">
-                    <img src="/22-23/kartik.jpeg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
+                    <img src={process.env.PUBLIC_URL +"/22-23/kartik.jpeg"} alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>

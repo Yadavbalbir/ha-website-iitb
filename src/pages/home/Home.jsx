@@ -64,7 +64,7 @@ function Home() {
               </div>
 
               <div class="carousel-item">
-                <img src="/insti-img/swimming-pool.jpg" className='carousel-img' height="50%" alt=""  />
+                <img src={process.env.PUBLIC_URL +"/insti-img/swimming-pool.jpg"} className='carousel-img' height="50%" alt=""  />
                 <div class="container">
                   <div class="carousel-caption text-start">
                     
@@ -73,7 +73,7 @@ function Home() {
               </div>
 
               <div class="carousel-item">
-                <img src="/insti-img/lecture-hall.jpg" className='carousel-img' height="50%" alt=""  />
+                <img src={process.env.PUBLIC_URL +"/insti-img/lecture-hall.jpg"} className='carousel-img' height="50%" alt=""  />
                 <div class="container">
                   <div class="carousel-caption text-start">
                     
@@ -82,7 +82,7 @@ function Home() {
               </div>
 
               <div class="carousel-item active">
-                <img src="/insti-img/top-view.jpg" className='carousel-img' height="50%" alt=""  />
+                <img src={process.env.PUBLIC_URL +"/insti-img/top-view.jpg"} className='carousel-img' height="50%" alt=""  />
                 <div class="container">
                   <div class="carousel-caption text-start">
                     
@@ -91,7 +91,7 @@ function Home() {
               </div>
 
               <div class="carousel-item">
-                <img src="/insti-img/gymkhana.jpg" className='carousel-img' height="50%" alt=""  />
+                <img src={process.env.PUBLIC_URL +"/insti-img/gymkhana.jpg"} className='carousel-img' height="50%" alt=""  />
                 <div class="container">
                   <div class="carousel-caption text-start">
                     
@@ -100,7 +100,7 @@ function Home() {
               </div>
 
               <div class="carousel-item">
-                <img src="/insti-img/amazing.jpg" className='carousel-img' height="50%" alt=""  />
+                <img src={process.env.PUBLIC_URL +"/insti-img/amazing.jpg"} className='carousel-img' height="50%" alt=""  />
                 <div class="container">
                   <div class="carousel-caption text-start">
                     
