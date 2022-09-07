@@ -102,7 +102,7 @@ function Hospital() {
                 <div class="col ">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src={process.env.PUBLIC_URL +"/22-23/Rishav.jpeg"} alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
+                    <img src={"./22-23/Rishav.jpeg"} alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
                   </div>
                 </div>
               </div>

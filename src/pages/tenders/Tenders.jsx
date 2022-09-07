@@ -14,7 +14,7 @@ function Tenders() {
             <div className="heading m-auto p-5">
                 <h1 className='text-warning border-bottom'>This page is under Developement</h1>
             </div>
-            <img src={process.env.PUBLIC_URL +"/under-construction.png"} className='m-auto' height={"300px"} alt="" />
+            <img src={"./under-construction.png"} className='m-auto' height={"300px"} alt="" />
         </div>
     </div>
   )

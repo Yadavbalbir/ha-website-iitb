@@ -10,7 +10,7 @@ function HA2122() {
               <div class="col m-auto">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-2 pb-3 text-shadow-1">
-                    <img src="/21-22/Saket.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Saket.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -33,7 +33,7 @@ function HA2122() {
               <div class="col">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/Amith.jpg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Amith.jpg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -52,7 +52,7 @@ function HA2122() {
                 <div class="col">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/kartik.jpeg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/kartik.jpeg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -71,7 +71,7 @@ function HA2122() {
                 <div class="col">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/Harry.jpg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Harry.jpg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -90,7 +90,7 @@ function HA2122() {
               <div class="col">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/Gurpreet.jpg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Gurpreet.jpg" alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -114,7 +114,7 @@ function HA2122() {
               <div class="col m-auto">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/Rishabh.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Rishabh.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -133,7 +133,7 @@ function HA2122() {
               <div class="col m-auto">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/sudhanshu.jpeg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/sudhanshu.jpeg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -151,7 +151,7 @@ function HA2122() {
               <div class="col m-auto">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/Ishita.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Ishita.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
@@ -169,7 +169,7 @@ function HA2122() {
               <div class="col m-auto">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src="/21-22/Ayush.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
+                    <img src="./21-22/Ayush.jpg" alt="Bootstrap" width="75%" style={{contentFit:"cover"}}  class="rounded-circle border border-white m-auto "/>
                      <ul class="d-flex list-unstyled mt-auto">
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
