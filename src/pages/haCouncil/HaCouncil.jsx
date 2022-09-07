@@ -19,7 +19,7 @@ function HaCouncil() {
         <HA2122/>
         <div className="mt-5"></div>
       
-        <HA2021/>
+        {/* <HA2021/> */}
     </div>
   )
 }
