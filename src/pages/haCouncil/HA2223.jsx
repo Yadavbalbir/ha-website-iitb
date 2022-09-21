@@ -15,7 +15,7 @@ function HA2223() {
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
                             <h4 className="name text-primary text-center">Kartik Bachhav</h4>
-                            <h6 className="text-white mt-2">General Sec. of Hostel Affairs (GSHA)</h6>
+                            <h6 className="text-white mt-2">General Secretary of Hostel Affairs (GSHA)</h6>
                             <h7 className="text-white"><span>Email:</span> gsecha@iitb.ac.in</h7>
                             <h7 className="text-white"><span>Phone:</span> 9577221212</h7>
                         </div>

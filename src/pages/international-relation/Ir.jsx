@@ -1,11 +1,12 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import { useEffect } from 'react';
+
 
 function Ir() {
-   useEffect(() => {
+
     document.title = "International Affairs | Hostel Affairs";
-  });
+
   return (
     <div>
         <Navbar/>
@@ -73,6 +74,7 @@ function Ir() {
                 </div>
 
         </div>
+        <Footer/>
     </div>
   )
 }

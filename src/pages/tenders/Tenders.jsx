@@ -1,12 +1,12 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import { useEffect } from 'react';
+
 
 function Tenders() {
 
-   useEffect(() => {
     document.title = "Tenders | Hostel Affairs";
-  });
+
   return (
       <div>
         <Navbar/>
@@ -16,6 +16,8 @@ function Tenders() {
             </div>
             <img src={"./under-construction.png"} className='m-auto' height={"300px"} alt="" />
         </div>
+
+        <Footer/>
     </div>
   )
 }

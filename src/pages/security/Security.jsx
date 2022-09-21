@@ -1,12 +1,13 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import { useEffect } from 'react';
+
 
 function Security() {
 
-   useEffect(() => {
+
     document.title = "Security Guidelines | Hostel Affairs";
-  });
+
   return (
       <div>
         <Navbar/>
@@ -16,6 +17,8 @@ function Security() {
             </div>
             <img src={"./under-construction.png"} className='m-auto' height={"300px"} alt="" />
         </div>
+
+        <Footer/>
     </div>
   )
 }

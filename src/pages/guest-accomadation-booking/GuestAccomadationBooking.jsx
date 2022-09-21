@@ -1,11 +1,11 @@
 import React from 'react'
 import { useEffect } from 'react';
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 
 function GuestAccomadationBooking() {
-  useEffect(() => {
     document.title = "Guest House Accomadation Booking | Hostel Affairs";
-  });
+
   return (
       <div>
         <Navbar/>
@@ -30,6 +30,7 @@ function GuestAccomadationBooking() {
             <p className="mx-4 px-4 text-info">Thank You</p>
 
         </div>
+        <Footer/>
     </div>
   )
 }

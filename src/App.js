@@ -38,7 +38,6 @@ function App() {
         <Route path="/gulmohar" element={<Gulmohar/>}/>
         <Route path="/hygiene-committee" element={<Hygiene/>}/>
     </Routes>
-    <Footer/>
     </HashRouter>
   );
 }

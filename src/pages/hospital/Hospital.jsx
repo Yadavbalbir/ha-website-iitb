@@ -1,12 +1,13 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import { useEffect } from 'react';
+
 
 function Hospital() {
 
-   useEffect(() => {
+
     document.title = "Hospital | Hostel Affairs";
-  });
+
   return (
     <div>
         <Navbar/>
@@ -128,7 +129,7 @@ function Hospital() {
             </div>
         </div>
 
-        
+      <Footer/>
     </div>
   )
 }

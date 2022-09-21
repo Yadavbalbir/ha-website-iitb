@@ -1,14 +1,14 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import "./home.css"
 
 
 function Home() {
 
-   useEffect(() => {
     document.title = "Home | Hostel Affairs";
-  });
+
   return (
     <div>
         <Navbar/>
@@ -120,6 +120,7 @@ function Home() {
             </button>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }

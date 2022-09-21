@@ -1,11 +1,12 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import { useEffect } from 'react';
+
 
 function Hygiene() {
-   useEffect(() => {
+
     document.title = "Hygiene Committee | Hostel Affairs";
-  });
+
   return (
     <div>
         <Navbar/>
@@ -114,6 +115,8 @@ function Hygiene() {
         </div> <hr/>
 
         </div>
+
+        <Footer/>
     </div>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import { useEffect } from 'react';
+
 
 function HallManager() {
 
-   useEffect(() => {
+
     document.title = "Hall Manager Duties | Hostel Affairs";
-  });
+
   return (
       <div>
         <Navbar/>
@@ -20,6 +21,7 @@ function HallManager() {
                       <p>Please find the Hall Manager duties here- <a href='https://gymkhana.iitb.ac.in/~hostels/Hallmanagerduties.pdf' className='text-primary nav-link d-inline-block'>Hall-manager-duties</a></p>
                 </div>
         </div>
+        <Footer/>
     </div>
   )
 }
