@@ -140,8 +140,8 @@ function HA2223() {
                         <div className='d-flex flex-column m-auto '>
                             <h4 className="name text-primary text-center">Dev Moxaj Desai</h4>
                             <h6 className="text-white mt-2">Institute System Administrator (ISA)</h6>
-                            <h7 className="text-white"><span>Email:</span> 180100115@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 7667557469</h7>
+                            <h7 className="text-white"><span>Email:</span> 190020038@iitb.ac.in</h7>
+                            <h7 className="text-white"><span>Phone:</span> 9902311335</h7>
                         </div>
                       </li>
                     </ul>
