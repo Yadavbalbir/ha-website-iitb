@@ -3,3 +3,12 @@
     height: 550px;
     object-fit: cover;
 }
+
+.about{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #00b98e;
+}
+
+.msg{
+    font-family: cursive;
+}

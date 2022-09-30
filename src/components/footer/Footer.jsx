@@ -5,7 +5,7 @@ function Footer() {
     document.documentElement.scrollTop = 0;
   }
   return (
-    <div className='bg-white mt-5'>
+    <div className='bg-light border-top'>
         <div class="container">
   <footer class="pt-5 pb-2">
     <div class="row">
@@ -50,10 +50,12 @@ function Footer() {
 
     <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
       <p className='text-primary'>© 2022 Hostel Affairs Council, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><i className='bi bi-facebook fs-5 text-primary'></i></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><i className='bi bi-linkedin fs-5 text-primary'></i></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><i className='bi bi-instagram fs-5 text-danger'></i></a></li>
+      <ul class="list-unstyled d-flex align-items-center">
+        <li class="ms-3 fs-6">Developed by Balbir Yadav</li>
+        <li class="ms-3"><a class="link-dark" href="https://github.com/Yadavbalbir"><i className='bi bi-github fs-5 text-dark'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/Balbir.iitb"><i className='bi bi-facebook fs-5 text-primary'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/yadavbalbir/"><i className='bi bi-linkedin fs-5 text-primary'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://github.com/Yadavbalbir"><i className='bi bi-instagram fs-5 text-danger'></i></a></li>
         {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> */}
       </ul>
