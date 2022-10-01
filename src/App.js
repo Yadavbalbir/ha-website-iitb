@@ -19,14 +19,12 @@ import Tenders from "./pages/tenders/Tenders";
 import HallManager from "./pages/hall-manager/HallManager";
 import Gulmohar from "./pages/gulmohar/Gulmohar";
 import Navbar from "./components/navbar/Navbar";
-import ParticlesBackground from "./components/ParticlesBackground";
 
 
 function App() {
   return (  
   <HashRouter>
     {/* <Navbar/> */}
-
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/alumi" element={<AlumiAffaris />} />
