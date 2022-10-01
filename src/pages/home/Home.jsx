@@ -16,7 +16,11 @@ function Home() {
       <div className="landing">
         <Navbar/>
         <div className="welcome container">
-            <h1 className="title text-white text-center my-5 py-5">Welcome to Hostel Affairs Council Website</h1>
+          <div className='welcome-title'>
+            <h1 className="home-title-1 text-white text-center">WELCOME TO</h1>
+             <h1 className='home-title-2 text-primary text-center'>Hostel Affairs Council</h1>
+             <h1 className='home-title-3 text-white text-center'>IIT BOMBAY</h1>
+          </div>
         </div>
       </div>
         {/* <div className="">
