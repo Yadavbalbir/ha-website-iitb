@@ -8,7 +8,7 @@ function Ir() {
     document.title = "International Affairs | Hostel Affairs";
 
   return (
-    <div>
+    <div  style={{backgroundImage:"url('./bggif.gif')", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div className="container text-white py-3 mt-4">
             <h1 className='text-warning text-center'>International Relations</h1> <hr/>

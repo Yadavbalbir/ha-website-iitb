@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <>
 
-   <nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
+   <nav class="navbar  navbar-expand-lg ">
   <div class="container-fluid container">  
       <Link className="navbar-brand" to="/"><img src={"./HA-logo.jpg"} height="50px" alt="" /></Link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

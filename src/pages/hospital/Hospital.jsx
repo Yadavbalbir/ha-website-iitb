@@ -5,8 +5,7 @@ import Navbar from '../../components/navbar/Navbar'
 
 function Hospital() {
 
-
-    document.title = "Hospital | Hostel Affairs";
+  document.title = "Hospital | Hostel Affairs";
 
   return (
     <div>

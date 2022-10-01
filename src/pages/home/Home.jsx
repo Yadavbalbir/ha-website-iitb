@@ -12,9 +12,14 @@ function Home() {
     document.title = "Home | Hostel Affairs";
 
   return (
-    <div className='home'>
+    <div className='home' style={{backgroundImage:"url('./bggif.gif')", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
+      <div className="landing">
         <Navbar/>
-        <div className="">
+        <div className="welcome container">
+            <h1 className="title text-white text-center my-5 py-5">Welcome to Hostel Affairs Council Website</h1>
+        </div>
+      </div>
+        {/* <div className="">
           <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -121,13 +126,13 @@ function Home() {
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        </div>
+        </div> */}
 
 
         {/* About HA council =============================================================== */}
         <div className=" py-5 ">
           <div class="container  col-xl-12 px- ">
-            <div class="row align-items-center shadow g-lg-5 py-4">
+            <div class="row align-items-center g-lg-5 py-4">
               <div class="col-md-10 mx-auto text-center col-lg-5">
                 <img src={"./pnglogo.png"} width="300px" alt="" />
               </div>
@@ -142,7 +147,7 @@ function Home() {
          {/* Msg from GSHA =============================================================== */}
         <div className="  py-5">
           <div class="container  col-xl-12 px-4 mt-5 ">
-            <div class="row align-items-center shadow g-lg-5 py-4">
+            <div class="row align-items-center g-lg-5 py-4">
               <div class="col-md-10 mx-auto text-center col-lg-5">
                 <img src={"./22-23/kartik.jpeg"} className="rounded-circle" width="300px" alt="" />
               </div>
@@ -190,7 +195,7 @@ function Home() {
          {/* Contact Us =============================================================== */}
         <div className=" ">
           <div class="container  col-xl-12 px-4 mt-5 ">
-            <div class="row align-items-center shadow g-lg-5 py-4">
+            <div class="row align-items-center g-lg-5 py-4">
               <div class="col-md-10 mx-auto text-center col-lg-5">
                 <img src={"./contact.png"} width="300px" alt="" />
               </div>

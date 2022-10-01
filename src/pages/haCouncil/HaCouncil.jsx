@@ -11,7 +11,7 @@ function HaCouncil() {
     document.title = "Council | Hostel Affairs";
 
   return (
-    <div>
+    <div  style={{backgroundImage:"url('./bggif.gif')", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <HA2223/>
         {/* 2021-2022 Members  */}  
