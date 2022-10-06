@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 
@@ -12,10 +13,10 @@ function Home() {
     document.title = "Home | Hostel Affairs";
 
   return (
-    <div className='home' style={{backgroundImage:"url('./bggif.gif')", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
+    <div className='home' style={{backgroundImage:"url(./bggif.gif)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
       <div className="landing">
         <Navbar/>
-        <div className="welcome container">
+        <div className="welcome container w3-animate-zoom">
           <div className='welcome-title'>
             <h1 className="home-title-1 text-white text-center">WELCOME TO</h1>
              <h1 className='home-title-2 text-primary text-center'>Hostel Affairs Council</h1>
@@ -134,22 +135,22 @@ function Home() {
 
 
         {/* About HA council =============================================================== */}
-        <div className=" py-5 ">
+        <div className="trans py-1 py-5 ">
           <div class="container  col-xl-12 px- ">
             <div class="row align-items-center g-lg-5 py-4">
-              <div class="col-md-10 mx-auto text-center col-lg-5">
-                <img src={"./pnglogo.png"} width="300px" alt="" />
-              </div>
               <div class="col-lg-7 px-5 text-center text-light text-lg-start">
                 <h1 class="about display-5 fw-bold lh-1  mb-3" >About HA Council</h1>
-                <p class="col-lg-10  fs-5">Hostel Affairs council holds the responsibility to provide better facilities and improvise the standards of students’ stay at IIT Bombay. Any improvisation or addition of the Infrastructure requirements, Security, Hospital, Internet, Accommodation, Housekeeping, Sustainability and Eateries are governed by the Hostel Affairs council.</p>
+                <p class="col-lg-10  fs-5 msg">Hostel Affairs council holds the responsibility to provide better facilities and improvise the standards of students’ stay at IIT Bombay. Any improvisation or addition of the Infrastructure requirements, Security, Hospital, Internet, Accommodation, Housekeeping, Sustainability and Eateries are governed by the Hostel Affairs council.</p>
+              </div>
+               <div class="col-md-10 mx-auto text-center col-lg-5">
+                <img src={"./pnglogo.png"} width="300px" alt="" />
               </div>
             </div>
           </div>
         </div>
 
          {/* Msg from GSHA =============================================================== */}
-        <div className="  py-5">
+        <div className="trans  py-5">
           <div class="container  col-xl-12 px-4 mt-5 ">
             <div class="row align-items-center g-lg-5 py-4">
               <div class="col-md-10 mx-auto text-center col-lg-5">
@@ -158,9 +159,9 @@ function Home() {
               <div class="col-lg-7 px-5 text-center text-light text-lg-start">
                 <h1 class="about display-5 fw-bold lh-1  mb-3" >Message from GSHA</h1>
                 <p class="col-lg-10  fs-5">You will hear it repeatedly from people that you are attending the nation's top engineering institute. We are not being arrogant when we say that; rather, it is the reality! The country’s brightest minds come to IIT Bombay every year as it is the best place to be for learning and personal development. So I once again congratulate you for making ...</p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Read Full Msg
-              </button>
+               </button>
 
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"                aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
@@ -191,28 +192,161 @@ function Home() {
             </div>
           </div>
         </div>
+        
+{/*====================== Verticles ================================================ */}
+
+  <div class="container px-4 trans py-2" id="hanging-icons">
+    <h1 class="about display-5 fw-bold lh-1  mb-3" >Hostel Affairs Verticles</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex text-info align-items-start">
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-warning">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex text-info align-items-start">
+        <div class="icon-square  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+
+        <div>
+          <h3 class="fs-2 text-warning">Hostel Affairs </h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+             See More
+          </a>
+        </div>
+      </div>
+
+      <div class="col d-flex text-info align-items-start">
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-warning">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
+
+      <div class="col d-flex text-info align-items-start">
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-warning">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
 
 
+      <div class="col d-flex text-info align-items-start">
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+        <div>
+          <h3 class="fs-2 text-warning">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
+
+
+
+
+        <div class="col d-flex text-info align-items-start">
+
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+
+        <div>
+          <h3 class="fs-2 text-warning">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+
+      </div>
+
+        <div class="col d-flex text-info align-items-start">
+
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <i className='bi bi-1-circle text-danger'></i>
+        </div>
+
+        <div>
+          <h3 class="fs-2 text-warning">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+                
+     {/* Meet HA Council members =============================================================== */}
+        <div className="trans ">
+          <div class="container  col-xl-12 px-4 mt-2 ">
+            <h1 class="about display-5 fw-bold lh-1 " >Meet HA Council Members</h1>
+            <div class="row align-items-center g-lg-5">
+              
+              <div class="col-lg-7 px-5 text-center text-lg-start">
+                <p class="col-lg-10 ">
+                  <p className="msg text-white fs-4"> Hostel Affairs Council consist of 16 Students led by elected General Secretry of Hostel Affairs responsible for different kind of work. </p>
+                  <div className='py-2 '>
+                            <Link to="/ha-council" target="_blank"><button className="btn btn-primary ">View HA Council 2022-23</button></Link>
+                  </div>
+                </p>
+              </div>
+
+              <div class="col-md-10 mx-auto text-center col-lg-5">
+                <img src={"./haCouncil.png"} style={{objectFit:"cover", width:"100%"}} alt="" />
+              </div>
+
+            </div>
+          </div>
+        </div>
 
   
 
          {/* Contact Us =============================================================== */}
-        <div className=" ">
-          <div class="container  col-xl-12 px-4 mt-5 ">
+        <div className="trans ">
+          <div class="container  col-xl-12 px-4 mt-2 ">
             <div class="row align-items-center g-lg-5 py-4">
-              <div class="col-md-10 mx-auto text-center col-lg-5">
-                <img src={"./contact.png"} width="300px" alt="" />
+                            <div class="col-md-10 mx-auto text-center col-lg-5">
+                <img src={"./contact.png"} style={{objectFit:"cover", width:"100%"}}alt="" />
               </div>
+
               <div class="col-lg-7 px-5 text-center text-lg-start">
                 <h1 class="about display-5 fw-bold lh-1 " >Contact Us</h1>
-                <p class="col-lg-10  fs-6">
-                  <p className="msg text-white">We are available on phone and email. We would recommend to contact us via email instead of calling directly. </p>
+                <p class="col-lg-10  fs-4 msg">
+                  <p className="msg text-light">We are available on phone and email. We would recommend to contact us via email instead of calling directly. </p>
                   <div className='d-flex flex-column m-auto py-2 '>
                             <h6 className="text-white"><span className='text-primary px-1'>Email:</span> 200100042@iitb.ac.in</h6>
                             <h6 className="text-white"><span className='text-primary'>Phone:</span> 9871766546</h6>
-                        </div>
+                    </div>
                 </p>
               </div>
+
+
             </div>
           </div>
         </div>

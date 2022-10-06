@@ -1,10 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import "./footer.css"
 function Footer() {
-  function myfunc(){
-    document.documentElement.scrollTop = 0;
-  }
   return (
     <div className=' '>
         <div class="container">

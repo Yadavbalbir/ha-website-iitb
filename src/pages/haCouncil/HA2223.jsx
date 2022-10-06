@@ -244,7 +244,7 @@ function HA2223() {
                       <li class="m-auto py-2">
                         <div className='d-flex flex-column m-auto '>
                             <h4 className="name text-primary text-center">Vaibhav Gaikwad</h4>
-                            <h6 className="text-white mt-2">Hygiene Committee Overall Coordinator</h6>
+                            <h6 className="text-white mt-2">Overall Coordinator, Hygiene Committee</h6>
                             <h7 className="text-white fs-6"><span>Email:</span> vaibhavgaikwad12asus@gmail.com</h7>
                             <h7 className="text-white"><span>Phone:</span> 9011920631</h7>
                         </div>

@@ -14,8 +14,21 @@
     font-family: cursive;
 }
 
+.trans{
+    transition: transform 1s;
+}
+
+.trans:hover{
+    transform: scale(1.05);
+}
+
 .welcome-title{
     margin: 160px auto;
+    transition: transform 1s;
+}
+.welcome-title:hover{
+    transform: scale(1.1);
+    z-index: +2;
 }
 
 .home-title-1{
@@ -28,4 +41,5 @@
     font-weight: 900;
     font-size: 100px;
 }
+
 
