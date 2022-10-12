@@ -9,7 +9,7 @@ function Hostels() {
     document.title = "Hostels | Hostel Affairs";
 
   return (
-      <div>
+      <div style={{backgroundImage:"url(https://img.freepik.com/free-vector/digital-technology-background-with-blue-orange-light-effect_1017-27423.jpg?w=1380&t=st=1665020579~exp=1665021179~hmac=c270d4f80c6ad288159eb1edfcc7229c7478138a10f1da651f77b95824c60926)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}} >
         <Navbar/>
 
         <div class="container px-4 py-5" id="custom-cards">
@@ -20,8 +20,8 @@ function Hostels() {
 
 
 {/* Hostel-1 details ====================================================== */}
-            <div class="col w3-animate-zoom ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+            <div class="col w3-animate-zoom  shadow-lg shadow-sm">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg ">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -71,8 +71,8 @@ function Hostels() {
 
 {/* Hostel-2 ===================================== */}
 
-             <div class="col w3-animate-zoom">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+             <div class="col w3-animate-zoom shadow-lg shadow-sm">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -119,8 +119,8 @@ function Hostels() {
 
 
   {/* Hostel-3 ======================================================== */}
-              <div class="col w3-animate-zoom ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+              <div class="col w3-animate-zoom shadow-lg shadow-sm ">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -135,7 +135,7 @@ function Hostels() {
                                 <small>1972</small>
                             </li>
                             <li class="d-flex align-items-center">
-                                 <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#h3">
+                                 <button type="button" class="btn btn-sm btn-primary fw-bolder" data-bs-toggle="modal" data-bs-target="#h3">
                                    Know More
                                 </button>
                             </li>
@@ -167,8 +167,8 @@ function Hostels() {
   {/* Hostel-4 ======================================================== */}
   
   {/* Hostel-5 ======================================================== */}
-     <div class="col w3-animate-zoom ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+     <div class="col w3-animate-zoom shadow-lg shadow-sm ">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -214,8 +214,8 @@ function Hostels() {
             </div>
   {/* Hostel-6 ======================================================== */}
 
-  <div class="col w3-animate-zoom ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+  <div class="col w3-animate-zoom shadow-lg shadow-sm">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -264,8 +264,8 @@ function Hostels() {
   {/* Hostel-7 ======================================================== */}
   {/* Hostel-8 ======================================================== */}
   {/* Hostel-9 ======================================================== */}
-  <div class="col w3-animate-zoom">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+  <div class="col w3-animate-zoom shadow-lg shadow-sm">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -310,8 +310,8 @@ function Hostels() {
               </div>
             </div>
   {/* Hostel-10 ======================================================== */}
-              <div class="col ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+              <div class="col shadow-lg shadow-sm ">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -356,8 +356,8 @@ function Hostels() {
               </div>
             </div>
   {/* Hostel-11======================================================== */}
-           <div class="col ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+           <div class="col shadow-lg shadow-sm ">
+                <div class="h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -403,8 +403,8 @@ function Hostels() {
             </div>
   {/* Hostel-12 ======================================================== */}
 
-  <div class="col ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+  <div class="col shadow-lg shadow-sm ">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -449,8 +449,8 @@ function Hostels() {
               </div>
             </div>
   {/* Hostel-13======================================================== */}
-  <div class="col ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+  <div class="col shadow-lg shadow-sm">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
@@ -495,8 +495,8 @@ function Hostels() {
               </div>
             </div>
   {/* Hostel-14 ======================================================== */}
-  <div class="col ">
-                <div class="card card-cover h-100 overflow-hidden text-white  rounded-4 shadow-lg">
+  <div class="col shadow-lg shadow-sm ">
+                <div class=" h-100 overflow-hidden text-white  rounded-4 shadow-lg">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        

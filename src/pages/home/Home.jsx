@@ -162,32 +162,32 @@ function Home() {
                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Read Full Msg
                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"                aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title about" id="staticBackdropLabel">Full Message by GSHA</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                         <p class=" msg fs-5 text-black container">You will hear it repeatedly from people that you are attending the nation's top engineering institute. We are not being arrogant when we say that; rather, it is the reality! The country’s brightest minds come to IIT Bombay every year as it is the best place to be for learning and personal development. So I once again congratulate you for making it to IIT Bombay. I heartily welcome you all! <br/>
-                        <br/>
-                        Everyone anticipates being rewarded in some way for the long and tough struggle it took to get here. But that simply          isnt the case, you are welcomed to insti with the mumbai monsoons, with constant downpour of rainfall combined with         the size of the campus where it seems impossible to get from one place to another. <br/>
-                        <br/>
-                        After living a comfortable life at your home, adjusting to the hostel life at IIT Bombay might be daunting to some,           but as days pass you’ll see that the hostel life isnt all that bad. You would start enjoying being here and before          you know it the hostel start feeling homely. To sum up everything, you will spend most memorable and enjoyable part         of your life here at the campus.  <br/>
-                        <br/>
-                        This process of you getting accustomed to the hostel life is made easier because of the facilities provided by the          hostels and the institute, be it your basic needs or your entertainment. Hostel Affairs is by far the most crucial          component of the institute as it deals with the day to day functioning of students life. The necessary information        regarding hostel facilities and services will be introduced in successive pages.<br/>
-                        <br/>
-                        Just like any case there is a lot more to hostel life than what I have mentioned, but this is something you will          have to find out your self in your course through IIT Bombay. You can try learning new skills or honing your old          ones with the freedom and resources available to you in the campus. At the end, when you look back you will realise         how much you have developed over the course of your stay. For now,I will take your leave and hope to see you and        have a nice interaction when you come to our beautiful campus.
-                        </p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title about" id="staticBackdropLabel">Full Message by GSHA</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                 <p class=" msg fs-5 text-black container">You will hear it repeatedly from people that you are attending the nation's top engineering institute. We are not being arrogant when we say that; rather, it is the reality! The country’s brightest minds come to IIT Bombay every year as it is the best place to be for learning and personal development. So I once again congratulate you for making it to IIT Bombay. I heartily welcome you all! <br/>
+                <br/>
+                Everyone anticipates being rewarded in some way for the long and tough struggle it took to get here. But that simply          isnt the case, you are welcomed to insti with the mumbai monsoons, with constant downpour of rainfall combined with         the size of the campus where it seems impossible to get from one place to another. <br/>
+                <br/>
+                After living a comfortable life at your home, adjusting to the hostel life at IIT Bombay might be daunting to some,           but as days pass you’ll see that the hostel life isnt all that bad. You would start enjoying being here and before          you know it the hostel start feeling homely. To sum up everything, you will spend most memorable and enjoyable part         of your life here at the campus.  <br/>
+                <br/>
+                This process of you getting accustomed to the hostel life is made easier because of the facilities provided by the          hostels and the institute, be it your basic needs or your entertainment. Hostel Affairs is by far the most crucial          component of the institute as it deals with the day to day functioning of students life. The necessary information        regarding hostel facilities and services will be introduced in successive pages.<br/>
+                <br/>
+                Just like any case there is a lot more to hostel life than what I have mentioned, but this is something you will          have to find out your self in your course through IIT Bombay. You can try learning new skills or honing your old          ones with the freedom and resources available to you in the campus. At the end, when you look back you will realise         how much you have developed over the course of your stay. For now,I will take your leave and hope to see you and        have a nice interaction when you come to our beautiful campus.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -199,53 +199,53 @@ function Home() {
     <h1 class="about display-5 fw-bold lh-1  mb-3" >Hostel Affairs Verticles</h1>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex text-info align-items-start">
-        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+        <div class="fs-3 me-3 mt-2">
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
         <div>
-          <h3 class="fs-2 text-warning">Featured title</h3>
+          <h3 class="fs-2 text-warning">Hygiene Committee</h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-            Primary button
+            Know More
           </a>
         </div>
       </div>
       <div class="col d-flex text-info align-items-start">
         <div class="icon-square  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
 
         <div>
-          <h3 class="fs-2 text-warning">Hostel Affairs </h3>
+          <h3 class="fs-2 text-warning">Sustainability Cell </h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-             See More
+             Know More
           </a>
         </div>
       </div>
 
       <div class="col d-flex text-info align-items-start">
         <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
         <div>
-          <h3 class="fs-2 text-warning">Featured title</h3>
+          <h3 class="fs-2 text-warning">Gender Cell</h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-            Primary button
+            Know More
           </a>
         </div>
       </div>
 
       <div class="col d-flex text-info align-items-start">
         <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
         <div>
-          <h3 class="fs-2 text-warning">Featured title</h3>
+          <h3 class="fs-2 text-warning">Security</h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-            Primary button
+            Know More
           </a>
         </div>
       </div>
@@ -253,13 +253,13 @@ function Home() {
 
       <div class="col d-flex text-info align-items-start">
         <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
         <div>
-          <h3 class="fs-2 text-warning">Featured title</h3>
+          <h3 class="fs-2 text-warning">Eateries</h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-            Primary button
+            Know More
           </a>
         </div>
       </div>
@@ -270,14 +270,14 @@ function Home() {
         <div class="col d-flex text-info align-items-start">
 
         <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
 
         <div>
-          <h3 class="fs-2 text-warning">Featured title</h3>
+          <h3 class="fs-2 text-warning">Hospital</h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-            Primary button
+            Know More
           </a>
         </div>
 
@@ -286,14 +286,30 @@ function Home() {
         <div class="col d-flex text-info align-items-start">
 
         <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i className='bi bi-1-circle text-danger'></i>
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
         </div>
 
         <div>
-          <h3 class="fs-2 text-warning">Featured title</h3>
+          <h3 class="fs-2 text-warning">Internet</h3>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
           <a href="#" class="btn btn-primary">
-            Primary button
+            Know More
+          </a>
+        </div>
+
+      </div>
+
+         <div class="col d-flex text-info align-items-start">
+
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          {/* <i className='bi bi-1-circle text-danger'></i> */}
+        </div>
+
+        <div>
+          <h3 class="fs-2 text-warning">Transportation</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Know More
           </a>
         </div>
 
