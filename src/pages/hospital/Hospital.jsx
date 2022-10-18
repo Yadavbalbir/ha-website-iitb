@@ -8,7 +8,7 @@ function Hospital() {
   document.title = "Hospital | Hostel Affairs";
 
   return (
-    <div>
+    <div style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div class="bg-dark text-secondary px-4 py-5 text-center">
           <div class="py-5">

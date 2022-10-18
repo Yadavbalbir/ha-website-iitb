@@ -8,7 +8,7 @@ function Gulmohar() {
     document.title = "Gulmohar | Hostel Affairs";
 
   return (
-      <div>
+      <div style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div className="container text-white d-flex flex-column my-5">
             <div className="heading m-auto p-5">

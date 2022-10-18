@@ -9,7 +9,7 @@ function HallManager() {
     document.title = "Hall Manager Duties | Hostel Affairs";
 
   return (
-      <div>
+      <div style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div className="container text-white d-flex flex-column my-3">
                 <h2 className='text-warning text-center w-75 m-auto p-3'>Hall Manager Duties</h2>

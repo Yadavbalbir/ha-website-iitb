@@ -6,7 +6,7 @@ function AlumiAffaris() {
     document.title = "Alumi Affairs | Hostel Affairs";
 
   return (
-    <div  className='bg-dark'>
+    <div  className='' style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div className="container text-white py-3 mt-4">
                 <h1 className='text-warning text-center'>Alumi Affairs</h1> <hr/>

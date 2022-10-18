@@ -8,7 +8,7 @@ function Hygiene() {
     document.title = "Hygiene Committee | Hostel Affairs";
 
   return (
-    <div>
+    <div style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div className="container text-white py-3 mt-4">
             <h1 className='text-warning text-center'>Hygiene Committee</h1> <hr/>
