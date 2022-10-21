@@ -454,7 +454,7 @@ function Hostels() {
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
-                        <h2 class="pb-2 mt-3 mb-2 display-6 lh-1 fw-bold">Hostel-13</h2>
+                        <h2 class="pb-2 mt-3 mb-2 display-6 lh-1 fw-bold">House of Titans</h2>
     
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
@@ -500,7 +500,7 @@ function Hostels() {
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <img src={"./insti-img/top-view.jpg"} className="rounded-3" alt=""/>
                        
-                        <h2 class="pb-2 mt-3  mb-2 display-6 lh-1 fw-bold">Hostel-14</h2>
+                        <h2 class="pb-2 mt-3  mb-2 display-6 lh-1 fw-bold">Silicon Ship</h2>
     
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">

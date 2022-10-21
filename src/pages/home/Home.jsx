@@ -204,10 +204,8 @@ function Home() {
         </div>
         <div>
           <h3 class="fs-2 text-warning">Hygiene Committee</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn btn-primary">
-            Know More
-          </a>
+          <p>Hygiene committee has been recently established to formalize the functioning of canteens, institute outlets, messes. Hygiene committee Holds the responsibility to conduct surprise visits...</p>
+           <Link to="/hygiene-committee" target="_blank"><button className="btn btn-primary ">Know more</button></Link>
         </div>
       </div>
       <div class="col d-flex text-info align-items-start">
@@ -217,8 +215,8 @@ function Home() {
 
         <div>
           <h3 class="fs-2 text-warning">Sustainability Cell </h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn btn-primary">
+          <p>IIT Bombay's Sustainability Cell serves as the hub for all the institute's sustainable development innovations, research, and teachings. We want to raise awareness about sustainability on campus... </p>
+          <a href="https://gymkhana.iitb.ac.in/sustainabilitycell/" class="btn btn-primary">
              Know More
           </a>
         </div>
@@ -230,8 +228,8 @@ function Home() {
         </div>
         <div>
           <h3 class="fs-2 text-warning">Gender Cell</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn btn-primary">
+          <p>The IIT Bombay Gender Cell (GC) inquires into complaints of sexual harassment through its Internal Complaints Committee (ICC). The GC and ICC strive to work towards an egalitarian...</p>
+          <a href="https://www.gendercell.iitb.ac.in/index.php" class="btn btn-primary">
             Know More
           </a>
         </div>
@@ -243,8 +241,8 @@ function Home() {
         </div>
         <div>
           <h3 class="fs-2 text-warning">Security</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn btn-primary">
+          <p>Security as is befitting an institute of our stature and importance, security at Main gates is very effective. We also have trained officers as Quick Response Team which is available ...</p>
+          <a href="https://docs.google.com/document/d/1vB78qVeErd-vfo49Qj-p3-Px1bWOO81ZX-eTly6ZKIo/edit?usp=sharing" class="btn btn-primary">
             Know More
           </a>
         </div>
@@ -257,8 +255,8 @@ function Home() {
         </div>
         <div>
           <h3 class="fs-2 text-warning">Eateries</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn btn-primary">
+          <p>From lunch thali to pizzas, you will find plenty of options around campus. Hiranandani is situated at a walking distance from IIT Bombay. It boasts some fantastic coffee shops...</p>
+          <a href="https://docs.google.com/document/d/1_CT0dncsFeSw8fLZ6-S9zDzX2j_xBIT2J3_Lj8_Y-ok/edit?usp=sharing" class="btn btn-primary">
             Know More
           </a>
         </div>
@@ -275,7 +273,7 @@ function Home() {
 
         <div>
           <h3 class="fs-2 text-warning">Hospital</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <p>IITB Hospital is a primary care hospital for medical treatment of students and staffs. All the bonafide students of the institute are entitled to free medical attendance ...</p>
           <a href="#" class="btn btn-primary">
             Know More
           </a>
@@ -290,8 +288,8 @@ function Home() {
         </div>
 
         <div>
-          <h3 class="fs-2 text-warning">Internet</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h3 class="fs-2 text-warning">International Relation</h3>
+          <p>The International Relations office overseas and coordinates all International activities of IIT Bombay, including: developing and defining relationships and collaborations with foreign...</p>
           <a href="#" class="btn btn-primary">
             Know More
           </a>
@@ -307,8 +305,10 @@ function Home() {
 
         <div>
           <h3 class="fs-2 text-warning">Transportation</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" class="btn btn-primary">
+          <p>There is wide varieties of transportation available in
+IITB.Firstly the buggies present in the institute are
+available during the day time. They are total 6 in number as of now and ...</p>
+          <a href="https://docs.google.com/document/d/1X9b8MXpmTSt2B8VlEr5NDUkRg3vqIHK2ukp6iyEuaFk/edit?usp=sharing" class="btn btn-primary">
             Know More
           </a>
         </div>
@@ -344,7 +344,7 @@ function Home() {
   
 
          {/* Contact Us =============================================================== */}
-        <div className="trans ">
+        {/* <div className="trans ">
           <div class="container  col-xl-12 px-4 mt-2 ">
             <div class="row align-items-center g-lg-5 py-4">
                             <div class="col-md-10 mx-auto text-center col-lg-5">
@@ -354,10 +354,10 @@ function Home() {
               <div class="col-lg-7 px-5 text-center text-lg-start">
                 <h1 class="about display-5 fw-bold lh-1 " >Contact Us</h1>
                 <p class="col-lg-10  fs-4 msg">
-                  <p className="msg text-light">We are available on phone and email. We would recommend to contact us via email instead of calling directly. </p>
+                  <p className="msg text-light">For any queries regarding above given verticals and in general issues related to Hostel affairs council contact us on the given on the  </p>
                   <div className='d-flex flex-column m-auto py-2 '>
-                            <h6 className="text-white"><span className='text-primary px-1'>Email:</span> 200100042@iitb.ac.in</h6>
-                            <h6 className="text-white"><span className='text-primary'>Phone:</span> 9871766546</h6>
+                            <h6 className="text-white"><span className='text-primary px-1'>Email:</span>gsecha@iitb.ac.in</h6>
+                           
                     </div>
                 </p>
               </div>
@@ -365,7 +365,7 @@ function Home() {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
         <Footer/>
     </div>

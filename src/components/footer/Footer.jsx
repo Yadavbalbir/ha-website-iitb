@@ -48,7 +48,7 @@ function Footer() {
     <div class="d-flex flex-column flex-sm-row justify-content-between ">
       <p className='text-primary'>© 2022 Hostel Affairs Council, Inc. All rights reserved.</p>
       <ul class="list-unstyled d-flex align-items-center">
-        <li class="ms-3 fs-6 text-white">Developed by Balbir Yadav</li>
+        {/* <li class="ms-3 fs-6 text-white">Developed by Balbir Yadav</li> */}
         <li class="ms-3"><a class="link-dark" href="https://github.com/Yadavbalbir"><i className='bi bi-github github fs-5'></i></a></li>
         <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/Balbir.iitb"><i className='bi bi-facebook fs-5 text-primary'></i></a></li>
         <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/yadavbalbir/"><i className='bi bi-linkedin fs-5 text-primary'></i></a></li>
