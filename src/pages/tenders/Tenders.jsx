@@ -11,7 +11,7 @@ function Tenders() {
         <div className="container text-white d-flex flex-column my-5">
             <div className="liveTenders mb-5">
                  <h1 className="title text-warning py-2 border-bottom "> <span className='text-warning'> Live Tenders 2022</span></h1>
-                 <span className='text-info px-3'>coming soon</span>
+                 <li><a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-5 '>Mess tender 2022 final Pdf </a> <span className='text-bg-danger px-3 mx-2  rounded-5 fs-7'>new</span></li> 
             </div>
 
             <div className="tender2021">
