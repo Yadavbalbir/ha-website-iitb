@@ -11,7 +11,17 @@ function Tenders() {
         <div className="container text-white d-flex flex-column my-5">
             <div className="liveTenders mb-5">
                  <h1 className="title text-warning py-2 border-bottom "> <span className='text-warning'> Live Tenders 2022</span></h1>
-                 <li><a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-5 '>Mess tender 2022 final Pdf </a> <span className='text-bg-danger px-3 mx-2  rounded-5 fs-7'>new</span></li> 
+                 <div className="mess px-3 my-4">
+                    <h4 className="text-info inline-block">Mess Tender 2022 </h4>
+                    <div className="details px-3">
+
+                    <li><a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-5 '>Mess tender 2022 final Pdf </a></li>
+                    <p className="muted-text mt-3 ">
+                      Hostel 2,6,10 and 15 are going for mess tendering. The tender document  is attached.
+Note - The pre-bid meeting is scheduled on 26/10/2022 at 4 PM in Hostel 17, Dining Hall, IIT Bombay - 400076
+                    </p>
+                  </div>
+            </div>
             </div>
 
             <div className="tender2021">
