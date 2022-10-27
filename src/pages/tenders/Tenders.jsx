@@ -12,14 +12,22 @@ function Tenders() {
             <div className="liveTenders mb-5">
                  <h1 className="title text-warning py-2 border-bottom "> <span className='text-warning'> Live Tenders 2022</span></h1>
                  <div className="mess px-3 my-4">
-                    <h4 className="text-info inline-block">Mess Tender 2022 </h4>
+                    <h4 className="text-info inline-block">Mess Tender 2022 <span className='fs-6 text-bg-danger rounded-2 px-2'>Live Now</span> </h4>
                     <div className="details px-3">
 
                     <li><a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-5 '>Mess tender 2022 final Pdf </a></li>
-                    <p className="muted-text mt-3 ">
-                      Hostel 2,6,10 and 15 are going for mess tendering. The tender document  is attached.
-Note - The pre-bid meeting is scheduled on 26/10/2022 at 4 PM in Hostel 17, Dining Hall, IIT Bombay - 400076
-                    </p>
+                    <div className="notice border rounded-4 p-2 my-4 px-4">
+                      <h4 className="title text-center text-info ">Notice</h4>
+                      <p className="main">
+                        Hostel 2,6,10 and 15 are going for mess tendering. The tender document pdf is attached above. 
+                      </p>
+                      <ol className=''>
+                        <li> The pre-bid meeting is scheduled on 26/10/2022 at 4 PM in Hostel 17, Dining Hall, IIT Bombay - 400076.</li>
+                        <li> The Last date for bid submission, along with all the necessary documents is 10/11/2022 at 5 PM.</li>
+                        <li> Technical Bids will be opened on 22/11/2022 at Dean SA Office, IITB.</li>
+                        <li> The list of all the eligible caterers after opening of technical bids will be published on Hostel Affairs, IITB Website on 25/11/2022</li>
+                      </ol>
+                    </div>
                   </div>
             </div>
             </div>
