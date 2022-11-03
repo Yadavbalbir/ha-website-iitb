@@ -139,7 +139,7 @@ function Home() {
           <div class="container  col-xl-12 px- ">
             <div class="row align-items-center g-lg-5 py-4">
               <div class="col-lg-7 px-5 text-center text-light text-lg-start">
-                <h1 class="about display-5 fw-bold lh-1  mb-3" >About HA Council</h1>
+                <h1 class="about display-5 fw-bold lh-1  mb-3" >About Hostel Affairs Council</h1>
                 <p class="col-lg-10  fs-5 msg">Hostel Affairs council holds the responsibility to provide better facilities and improvise the standards of students’ stay at IIT Bombay. Any improvisation or addition of the Infrastructure requirements, Security, Hospital, Internet, Accommodation, Housekeeping, Sustainability and Eateries are governed by the Hostel Affairs council.</p>
               </div>
                <div class="col-md-10 mx-auto text-center col-lg-5">
