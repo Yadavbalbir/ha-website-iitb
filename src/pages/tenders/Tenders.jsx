@@ -15,7 +15,7 @@ function Tenders() {
                     <h4 className="text-info inline-block">Mess Tender 2022 <span className='fs-6 text-bg-danger rounded-2 px-2'>Live Now</span> </h4>
                     <div className="details px-3">
 
-                    <li><a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-5 '>Mess tender 2022 final Pdf </a></li>
+                    <li className='fs-5'>Mess tender H-2, 6, 10, 15<a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-6 text-decoration-none text-bg-primary text-white px-2 rounded-2 mx-2'> click to download </a></li>
                     <div className="notice border rounded-4 p-2 my-4 px-4">
                       <h4 className="title text-center text-info ">Notice</h4>
                       <p className="main">
@@ -26,6 +26,23 @@ function Tenders() {
                         <li> The Last date for bid submission, along with all the necessary documents is 10/11/2022 at 5 PM.</li>
                         <li> Technical Bids will be opened on 22/11/2022 at Dean SA Office, IITB.</li>
                         <li> The list of all the eligible caterers after opening of technical bids will be published on Hostel Affairs, IITB Website on 25/11/2022</li>
+                      </ol>
+                    </div>
+                  </div>
+
+                  <div className="details px-3">
+
+                    <li className='fs-5'>Mess tender H-5, 16, 18<a href='https://drive.google.com/file/d/1JVvYhERf2FdL3hgOMCzVG96CtQsNzqCM/view?usp=share_link' className='text-info fs-6 text-decoration-none text-bg-primary text-white px-2 rounded-2 mx-2'> click to download </a></li>
+                    <div className="notice border rounded-4 p-2 my-4 px-4">
+                      <h4 className="title text-center text-info ">Notice</h4>
+                      <p className="main">
+                        Hostel-5, 16, 18 are going for mess tendering. The tender document pdf is attached above. more details will be updated here
+                      </p>
+                      <ol className=''>
+                        <li> Stay tuned for more updated!</li>
+                        {/* <li> The Last date for bid submission, along with all the necessary documents is 10/11/2022 at 5 PM.</li>
+                        <li> Technical Bids will be opened on 22/11/2022 at Dean SA Office, IITB.</li>
+                        <li> The list of all the eligible caterers after opening of technical bids will be published on Hostel Affairs, IITB Website on 25/11/2022</li> */}
                       </ol>
                     </div>
                   </div>
