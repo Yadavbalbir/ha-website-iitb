@@ -24,7 +24,7 @@ function Tenders() {
                       <ol className=''>
                         <li> The pre-bid meeting is scheduled on 26/10/2022 at 4 PM in Hostel 17, Dining Hall, IIT Bombay - 400076.</li>
                         <li> The Last date for bid submission, along with all the necessary documents is 10/11/2022 at 5 PM.</li>
-                        <li> Technical Bids will be opened on 22/11/2022 at Dean SA Office, IITB.</li>
+                        <li> Technical Bids will be opened on 25/11/2022 at Dean SA Office, IITB.</li>
                         <li> The list of all the eligible caterers after opening of technical bids will be published on Hostel Affairs, IITB Website on 25/11/2022</li>
                       </ol>
                     </div>
@@ -39,7 +39,7 @@ function Tenders() {
                         Hostel-5, 16, 18 are going for mess tendering. The tender document pdf is attached above. more details will be updated here
                       </p>
                       <ol className=''>
-                        <li> Stay tuned for more updated!</li>
+                        <li> Stay tuned for more updates!</li>
                         {/* <li> The Last date for bid submission, along with all the necessary documents is 10/11/2022 at 5 PM.</li>
                         <li> Technical Bids will be opened on 22/11/2022 at Dean SA Office, IITB.</li>
                         <li> The list of all the eligible caterers after opening of technical bids will be published on Hostel Affairs, IITB Website on 25/11/2022</li> */}
