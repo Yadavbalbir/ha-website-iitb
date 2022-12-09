@@ -3,8 +3,12 @@ import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
 
 
+      
 function Tenders() {
     document.title = "Tenders | Hostel Affairs";
+    
+
+
   return (
       <div>
         <Navbar/>
@@ -12,9 +16,49 @@ function Tenders() {
             <div className="liveTenders mb-5">
                  <h1 className="title text-warning py-2 border-bottom "> <span className='text-warning'> Live Tenders 2022</span></h1>
                  <div className="mess px-3 my-4">
-                    <h4 className="text-info inline-block">Mess Tender 2022 <span className='fs-6 text-bg-danger rounded-2 px-2'>Live Now</span> </h4>
-                    <div className="details px-3">
-
+                    <h4 className="text-info inline-block ">Mess Tender 2022 <span className='fs-6 text-bg-danger rounded-2 px-2'>Live Now</span> </h4>
+                    <div className="update px-3 my-4">
+                      <h4 className="  fs-3">Technical Qualification <span id='blink' className='fs-5 text-bg-info tq rounded-2 px-2'>new</span></h4>
+                      <p>
+                        Following people have qualified the technical document scrutiny., Our visiting team will visit the given reference locations of the following caterers in the time span between <b>10th December to 17th December.</b>
+                      </p>
+                       <div className="list1 p-3 mb-2  fs-5 ">
+                           <li>K Star</li>
+                          <li>Shridevi Hospitality Services</li>
+                          <li>Arjun Hospitality</li>
+                          <li>Compass</li>
+                          <li>Shree Annapurneshwari Allied Services</li>
+                          <li>Annapurna Catering Services</li>
+                          <li>Shridevi Hospitality</li>
+                          <li>Kwality Hospitality Services</li>
+                          <li>Vehar Canteen Services</li>
+                          <li>Vidya Caterers</li>
+                          <li>Saisha Hospitality Services</li>
+                          <li>V. N. Caterers</li>
+                           <li>Cheftalk Food and Hospitality</li>
+                         <li>Kuber Health Food and Allied Services</li>
+                         <li>Dietico</li>
+                         <li>Malhar Catering Services</li>
+                         <li>Pooja Hospitality</li>
+                         <li>Shree Chakra Catering</li>
+                         <li>Agrotis Catering Services</li>
+                         <li>Abhinandan Caterers</li>
+                         <li>Sai Siddhi Hospitality</li>
+                         <li>Sai Cuisine Hospitality</li>
+                         <li>Kanaka</li>
+                         <li>Prithvi Hospitality</li>
+                         <li>Saanvi Star</li>
+                         <li>Balaji Caterer</li>
+                         <li>Sai Balaji Caterers</li>
+                         <li>Shree Sai Balaji</li>
+                         <li>KHFM</li>
+                         <li>Venture Professionals</li>
+                         <li>Super Care</li>
+                         <li>Shri Devi Caterers</li>
+                      </div>
+                    <b>Note:</b> This list is combined list for both the tenders (Hostel 2/6/10/15) and (Hostel 16/18/5).
+                    </div>
+                    <div className="details px-3 my-4">
                     <li className='fs-5'>Mess tender H-2, 6, 10, 15<a href='https://drive.google.com/file/d/1TwfNdwmYbugu08dFM1bHFGm84lhonEhE/view?usp=sharing' className='text-info fs-6 text-decoration-none text-bg-primary text-white px-2 rounded-2 mx-2'> click to download </a></li>
                     <div className="notice border rounded-4 p-2 my-4 px-4">
                       <h4 className="title text-center text-info ">Notice</h4>
