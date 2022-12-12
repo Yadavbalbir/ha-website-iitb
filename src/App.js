@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 import HaCouncil from "./pages/haCouncil/HaCouncil";
 import AlumiAffaris from "./pages/alumi-affairs/AlumiAffaris";
 import Ir from "./pages/international-relation/Ir";
@@ -18,7 +18,9 @@ import Hygiene from "./pages/hygiene/Hygiene";
 import Tenders from "./pages/tenders/Tenders";
 import HallManager from "./pages/hall-manager/HallManager";
 import Gulmohar from "./pages/gulmohar/Gulmohar";
-import Navbar from "./components/navbar/Navbar";
+import FoodOutletRating from "./pages/foodRatings/FoodOutletRating";
+// import Navbar from "./components/navbar/Navbar";
+
 
 
 function App() {
@@ -34,7 +36,7 @@ function App() {
       <Route path="/hostels" element={<Hostels />} />
       <Route path="/security" element={<Security />} />
       <Route path="/tenders" element={<Tenders />} />
-      <Route path="/food-outlet-rating" element={<Home />} />
+      <Route path="/food-outlet-ratings" element={<FoodOutletRating/>} />
       <Route path="/hall-manager-duties" element={<HallManager />} />
       <Route path="/guest-accomadation-booking" element={<GuestAccomadationBooking />} />
       <Route path="/gulmohar" element={<Gulmohar />} />
