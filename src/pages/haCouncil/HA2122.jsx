@@ -17,7 +17,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Saket Mohta</h4>
                             <h6 className="text-white mt-2">General Sec. of Hostel Affairs (GSHA)</h6>
                             <h7 className="text-white"><span>Email:</span> gsecha@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 6204464585</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 6204464585</h7> */}
                         </div>
 
                       </li>
@@ -40,7 +40,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Ramineni Amith Varma</h4>
                             <h6 className="text-white mt-2">Institute Secretaries of Hostel Affairs (ISHAs)</h6>
                             <h7 className="text-white"><span>Email:</span> 190050099@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 9676463295</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 9676463295</h7> */}
                         </div>
 
                       </li>
@@ -59,7 +59,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Kartik Bachhav</h4>
                             <h6 className="text-white mt-2">Institute Secretaries of Hostel Affairs (ISHAs)</h6>
                             <h7 className="text-white"><span>Email:</span> 190100062@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 9577221212</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 9577221212</h7> */}
                         </div>
 
                       </li>
@@ -78,7 +78,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Harjinder Singh Gill</h4>
                             <h6 className="text-white mt-2">Institute Secretaries of Hostel Affairs (ISHAs)</h6>
                             <h7 className="text-white"><span>Email:</span> 190110025@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span>7837600106</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span>7837600106</h7> */}
                         </div>
 
                       </li>
@@ -97,7 +97,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Gurpreet Singh Dhillon</h4>
                             <h6 className="text-white mt-2">Institute Secretaries of Hostel Affairs (ISHAs)</h6>
                             <h7 className="text-white"><span>Email:</span>gurpreetdhillon47@gmail.com</h7>
-                            <h7 className="text-white"><span>Phone:</span> 9464208257</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 9464208257</h7> */}
                         </div>
 
                       </li>
@@ -121,7 +121,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Rishabh Arya</h4>
                             <h6 className="text-white mt-2">Institute System Administrators (ISA)</h6>
                             <h7 className="text-white"><span>Email:</span> rishabharya@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 8209551718</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 8209551718</h7> */}
                         </div>
 
                       </li>
@@ -140,7 +140,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Sudhanshu Sahil</h4>
                             <h6 className="text-white mt-2">Institute System Administrators (ISA)</h6>
                             <h7 className="text-white"><span>Email:</span> 180100115@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 7667557469</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 7667557469</h7> */}
                         </div>
                       </li>
                     </ul>
@@ -158,7 +158,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Ishita Gupta</h4>
                             <h6 className="text-white mt-2"> Institute Girls' Nominee</h6>
                             <h7 className="text-white"><span>Email:</span> 18b080012@iitb.ac.in</h7>
-                            <h7 className="text-white"><span>Phone:</span> 8112294342</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 8112294342</h7> */}
                         </div>
                       </li>
                     </ul>
@@ -176,7 +176,7 @@ function HA2122() {
                             <h4 className="name text-primary text-center">Ayush Jangir</h4>
                             <h6 className="text-white mt-2">Web Nominee Hostel Affairs</h6>
                             <h7 className="text-white"><span>Email:</span> webnominee.iitb@gmail.com</h7>
-                            <h7 className="text-white"><span>Phone:</span> 8696923282</h7>
+                            {/* <h7 className="text-white"><span>Phone:</span> 8696923282</h7> */}
                         </div>
                       </li>
                     </ul>
