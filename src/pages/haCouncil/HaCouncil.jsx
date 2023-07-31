@@ -15,11 +15,11 @@ function HaCouncil() {
     <div className='bg-black' style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <HA2324/>
-        <HA2223/>
-        {/* 2021-2022 Members  */}  
-        
-        <HA2122/>
         <div className="mt-5"></div>
+        <HA2223/>
+        
+        
+        {/* <HA2122/> */}
       
         {/* <HA2021/> */}
 

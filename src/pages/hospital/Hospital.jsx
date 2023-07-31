@@ -100,7 +100,7 @@ function Hospital() {
                 <div class="col ">
                 <div class=" h-100 overflow-hidden  rounded-4" >
                   <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                    <img src={"./22-23/Rishav.jpeg"} alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
+                    <img src={"./23-24/Swami.jpg"} alt="Bootstrap" width="75%"  class="rounded-circle border border-white m-auto "/>
                   </div>
                 </div>
               </div>
@@ -111,9 +111,9 @@ function Hospital() {
                      <ul class="d-flex list-unstyled ">
                       <li class="m-auto py-2 mt-5">
                         <div className='d-flex flex-column m-auto '>
-                            <h2 className="name text-primary">Rishav Kumar</h2  >
-                            <h4 className="text-white"><span>Email:</span> 200100131@iitb.ac.in</h4>
-                            <h4 className="text-white"><span>Phone:</span> 6206955952</h4>
+                            <h2 className="name text-primary">Vikash Swami</h2  >
+                            <h4 className="text-white"><span>Email:</span> isha23.iitb@gmail.com</h4>
+                            <h4 className="text-white"><span>Phone:</span> 8882167908</h4>
                         </div>
 
                       </li>

@@ -154,11 +154,11 @@ function Home() {
           <div class="container  col-xl-12 px-4 mt-5 ">
             <div class="row align-items-center g-lg-5 py-4">
               <div class="col-md-10 mx-auto text-center col-lg-5">
-                <img src={"./22-23/kartik.jpeg"} className="rounded-circle" width="300px" alt="" />
+                <img src={"./23-24/pratham.jpeg"} className="rounded-circle" width="300px" alt="" />
               </div>
               <div class="col-lg-7 px-5 text-center text-light text-lg-start">
                 <h1 class="about display-5 fw-bold lh-1  mb-3" >Message from GSHA</h1>
-                <p class="col-lg-10  fs-5">You will hear it repeatedly from people that you are attending the nation's top engineering institute. We are not being arrogant when we say that; rather, it is the reality! The country’s brightest minds come to IIT Bombay every year as it is the best place to be for learning and personal development. So I once again congratulate you for making ...</p>
+                <p class="col-lg-10  fs-5">You're about to embark on a remarkable journey at IIT Bombay, hailed as the nation's top engineering institute. The brightest minds from across the country gather here to learn and grow. Congratulations on your admission, and a warm welcome to all... </p>
                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Read Full Msg
                </button>
@@ -175,15 +175,13 @@ function Home() {
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                 <p class=" msg fs-5 text-black container">You will hear it repeatedly from people that you are attending the nation's top engineering institute. We are not being arrogant when we say that; rather, it is the reality! The country’s brightest minds come to IIT Bombay every year as it is the best place to be for learning and personal development. So I once again congratulate you for making it to IIT Bombay. I heartily welcome you all! <br/>
+                 <p class=" msg fs-5 text-black container">You're about to embark on a remarkable journey at IIT Bombay, hailed as the nation's top engineering institute. The brightest minds from across the country gather here to learn and grow. Congratulations on your admission, and a warm welcome to all of you! <br/>
                 <br/>
-                Everyone anticipates being rewarded in some way for the long and tough struggle it took to get here. But that simply          isnt the case, you are welcomed to insti with the mumbai monsoons, with constant downpour of rainfall combined with         the size of the campus where it seems impossible to get from one place to another. <br/>
+                Adjusting to hostel life after the comforts of home might be a bit challenging at first, especially with the relentless Mumbai monsoons and the vast campus to navigate. But fret not, as days pass, you'll find yourself getting accustomed to it. The hostel life has its charm, and soon enough, it'll start feeling like a second home. <br/>
                 <br/>
-                After living a comfortable life at your home, adjusting to the hostel life at IIT Bombay might be daunting to some,           but as days pass you’ll see that the hostel life isnt all that bad. You would start enjoying being here and before          you know it the hostel start feeling homely. To sum up everything, you will spend most memorable and enjoyable part         of your life here at the campus.  <br/>
+                The institute takes care of your needs and entertainment, making the transition smoother. Hostel Affairs plays a vital role in ensuring the daily functioning of student life. Throughout your journey, you'll uncover more than what words can express—discovering new skills, honing existing ones, and enjoying the freedom and resources available on campus. As time goes by, you'll look back and see how much you've grown during your stay. <br/>
                 <br/>
-                This process of you getting accustomed to the hostel life is made easier because of the facilities provided by the          hostels and the institute, be it your basic needs or your entertainment. Hostel Affairs is by far the most crucial          component of the institute as it deals with the day to day functioning of students life. The necessary information        regarding hostel facilities and services will be introduced in successive pages.<br/>
-                <br/>
-                Just like any case there is a lot more to hostel life than what I have mentioned, but this is something you will          have to find out your self in your course through IIT Bombay. You can try learning new skills or honing your old          ones with the freedom and resources available to you in the campus. At the end, when you look back you will realise         how much you have developed over the course of your stay. For now,I will take your leave and hope to see you and        have a nice interaction when you come to our beautiful campus.
+                Now, I'll bid you farewell and eagerly await the day you set foot on our beautiful campus. I'm excited to have a pleasant interaction with you then! <br/>
                 </p>
               </div>
               <div class="modal-footer">
@@ -328,7 +326,7 @@ available during the day time. They are total 6 in number as of now and ...</p>
                 <p class="col-lg-10 ">
                   <p className="msg text-white fs-4"> Hostel Affairs Council consist of 16 Students led by elected General Secretry of Hostel Affairs responsible for different kind of work. </p>
                   <div className='py-2 '>
-                            <Link to="/ha-council" target="_blank"><button className="btn btn-primary ">View HA Council 2022-23</button></Link>
+                            <Link to="/ha-council" target="_blank"><button className="btn btn-primary ">View HA Council 2023-24</button></Link>
                   </div>
                 </p>
               </div>

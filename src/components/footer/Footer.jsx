@@ -46,13 +46,13 @@ function Footer() {
     </div> */}
 
     <div class="d-flex flex-column flex-sm-row justify-content-between ">
-      <p className='text-primary'>© 2022 Hostel Affairs Council, Inc. All rights reserved.</p>
+      <p className='text-primary'>© 2023 Hostel Affairs Council, Inc. All rights reserved.</p>
       <ul class="list-unstyled d-flex align-items-center">
         {/* <li class="ms-3 fs-6 text-white">Developed by Balbir Yadav</li> */}
-        <li class="ms-3"><a class="link-dark" href="https://github.com/Yadavbalbir"><i className='bi bi-github github fs-5'></i></a></li>
-        <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/Balbir.iitb"><i className='bi bi-facebook fs-5 text-primary'></i></a></li>
-        <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/yadavbalbir/"><i className='bi bi-linkedin fs-5 text-primary'></i></a></li>
-        <li class="ms-3"><a class="link-dark" href="https://github.com/Yadavbalbir"><i className='bi bi-instagram fs-5 text-danger'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://github.com/Atharv140903"><i className='bi bi-github github fs-5'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/atharv.kurde"><i className='bi bi-facebook fs-5 text-primary'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/atharv-kurde-067b45223"><i className='bi bi-linkedin fs-5 text-primary'></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/atharv_kurde_/"><i className='bi bi-instagram fs-5 text-danger'></i></a></li>
         {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> */}
       </ul>
