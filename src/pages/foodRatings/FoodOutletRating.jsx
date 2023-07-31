@@ -6,11 +6,11 @@ import "./foodrating.css";
 function FoodOutletRating() {
   document.title = "Food Quality Ratings | HA 2022-23"
   return (
-    <>
+    <div style={{backgroundImage:"url('./habg.jpg')", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
       <Navbar />
       <main>
         <div class="container py-4">
-          <div class="p-5 mb-4 text-light bg-dark shadow rounded-3">
+          <div class="p-5 mb-4 text-light">
             <div class="container-fluid py-5">
               <h1 class="display-5 fw-bold">Food Outlet Ratings</h1>
               <p class="col-md-8 fs-4">
@@ -343,7 +343,7 @@ function FoodOutletRating() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
