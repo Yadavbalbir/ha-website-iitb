@@ -3,13 +3,13 @@ import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
 
 function AlumiAffaris() {
-    document.title = "Alumi Affairs | Hostel Affairs";
+    document.title = "Alumni Affairs | Hostel Affairs";
 
   return (
     <div  className='' style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
         <div className="container text-white py-3 mt-4">
-                <h1 className='text-warning text-center'>Alumi Affairs</h1> <hr/>
+                <h1 className='text-warning text-center'>Alumni Affairs</h1> <hr/>
 
                 <div className="institute-level">
 

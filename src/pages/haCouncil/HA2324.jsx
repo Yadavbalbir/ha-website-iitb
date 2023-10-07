@@ -313,7 +313,7 @@ function HA2324() {
             <div class=" h-100 overflow-hidden  rounded-4">
               <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
                 <img
-                  src={"./23-24/Prapti.jpg"}
+                  src={"./23-24/Likitha.jpg"}
                   alt="Bootstrap"
                   width="75%"
                   style={{ contentFit: "cover" }}
@@ -324,7 +324,7 @@ function HA2324() {
                   <li class="m-auto py-2">
                     <div className="d-flex flex-column m-auto ">
                       <h4 className="name text-primary text-center">
-                        Prapti Sao
+                        Likitha Reddy
                       </h4>
                       <h6 className="text-white mt-2">
                         Institute Girls' Nominee
@@ -333,7 +333,7 @@ function HA2324() {
                         <span>Email:</span> ign.iitb@gmail.com
                       </h7>
                       <h7 className="text-white">
-                        <span>Phone:</span> 9137177164
+                        <span>Phone:</span> 9390270710
                       </h7>
                     </div>
                   </li>
