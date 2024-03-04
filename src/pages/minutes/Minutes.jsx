@@ -9,7 +9,7 @@ function Minutes() {
         { title: 'HGSC Meet 2', path: 'hostels/23-24/minutes/hgsc-2.pdf' },
         { title: 'HGSC Meet 3', path: 'hostels/23-24/minutes/hgsc-3.pdf' },
         { title: 'HGSC Meet 4', path: 'hostels/23-24/minutes/hgsc-4.pdf' },
-        { title: 'Maintenance Committee Meet', path: 'hostels/23-24/minutes/maintenance-committee.pdf' },
+        { title: 'Maintenance Committee Meet', path: 'hostels/23-24/minutes/maint-committee.pdf' },
         { title: 'Mess Committee Meet', path: 'hostels/23-24/minutes/mess-committee.pdf' },
     ];
 
