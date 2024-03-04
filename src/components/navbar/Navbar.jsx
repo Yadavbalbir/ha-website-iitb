@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import {Link} from 'react-router-dom'
 import "./navbar.css"
@@ -55,6 +56,7 @@ function Navbar() {
                 More
             </a>
             <ul class="dropdown-menu dropdown-menu-primary bg-info">
+              <li><Link class="dropdown-item" to="/minutes">Meeting Minutes</Link></li>
               <li><a class="dropdown-item" href="https://gymkhana.iitb.ac.in/sustainabilitycell/">Sustainability Cell</a></li>
               <li><Link class="dropdown-item" to="/security">Security Guidelines</Link></li>
               <li><Link class="dropdown-item" to="/hygiene-committee">Hygiene Committee</Link></li>

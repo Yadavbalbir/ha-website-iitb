@@ -19,6 +19,7 @@ import Tenders from "./pages/tenders/Tenders";
 import HallManager from "./pages/hall-manager/HallManager";
 import Gulmohar from "./pages/gulmohar/Gulmohar";
 import FoodOutletRating from "./pages/foodRatings/FoodOutletRating";
+import Minutes from "./pages/minutes/Minutes";
 // import Navbar from "./components/navbar/Navbar";
 
 
@@ -41,6 +42,7 @@ function App() {
       <Route path="/guest-accomadation-booking" element={<GuestAccomadationBooking />} />
       <Route path="/gulmohar" element={<Gulmohar />} />
       <Route path="/hygiene-committee" element={<Hygiene />} />
+      <Route path="/minutes" element={<Minutes />} />
     </Routes>
   </HashRouter>
 
