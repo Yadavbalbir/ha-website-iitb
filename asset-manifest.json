@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.9e61225c.css",
-    "main.js": "./static/js/main.cdd80662.js",
+    "main.css": "./static/css/main.8e0f2e57.css",
+    "main.js": "./static/js/main.22972ac1.js",
+    "static/media/prabhat.jpg": "./static/media/prabhat.fc2b38f158c812862c11.jpg",
+    "static/media/habg.jpg": "./static/media/habg.ad7443cf48647c82a6a9.jpg",
+    "static/media/shrey.jpg": "./static/media/shrey.3733b2545c236c39da5f.jpg",
+    "static/media/abhi.JPG": "./static/media/abhi.7bbe3d97cb54ba1b7a84.JPG",
+    "static/media/jakher.jpg": "./static/media/jakher.d27d567abf1dda5eea4b.jpg",
+    "static/media/vidit.jpg": "./static/media/vidit.a8602073945e0da387c3.jpg",
+    "static/media/ankur.jpg": "./static/media/ankur.c353f3e8b24030765119.jpg",
+    "static/media/abhay.jpg": "./static/media/abhay.cf8775a68247a505ff4c.jpg",
+    "static/media/tanmay.png": "./static/media/tanmay.1fb9bc6608ad7d086b34.png",
+    "static/media/himank.jpg": "./static/media/himank.e20f216749c002a2b4f8.jpg",
+    "static/media/vikas.jpg": "./static/media/vikas.548c0fda73b72e118864.jpg",
+    "static/media/arpita.jpg": "./static/media/arpita.bbe47484ebea97eaae00.jpg",
     "index.html": "./index.html",
-    "main.9e61225c.css.map": "./static/css/main.9e61225c.css.map",
-    "main.cdd80662.js.map": "./static/js/main.cdd80662.js.map"
+    "main.8e0f2e57.css.map": "./static/css/main.8e0f2e57.css.map",
+    "main.22972ac1.js.map": "./static/js/main.22972ac1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e61225c.css",
-    "static/js/main.cdd80662.js"
+    "static/css/main.8e0f2e57.css",
+    "static/js/main.22972ac1.js"
   ]
 }
