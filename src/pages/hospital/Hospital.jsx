@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
+import dummy from "../../images/24-25/dummy-image.jpeg"
 
 function Hospital() {
   document.title = "Hospital | Hostel Affairs";
@@ -154,7 +155,7 @@ function Hospital() {
             <div class=" h-100 overflow-hidden  rounded-4">
               <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
                 <img
-                  src={"./23-24/Swami.jpg"}
+                  src={dummy}
                   alt="Bootstrap"
                   width="75%"
                   class="rounded-circle border border-white m-auto "
@@ -169,12 +170,12 @@ function Hospital() {
                 <ul class="d-flex list-unstyled ">
                   <li class="m-auto py-2 mt-5">
                     <div className="d-flex flex-column m-auto ">
-                      <h2 className="name text-primary">Vikash Swami</h2>
+                      <h2 className="name text-primary">-----</h2>
                       <h4 className="text-white">
-                        <span>Email:</span> isha23.iitb@gmail.com
+                        <span>Email:</span> ------
                       </h4>
                       <h4 className="text-white">
-                        <span>Phone:</span> 8882167908
+                        <span>Phone:</span> -----
                       </h4>
                     </div>
                   </li>

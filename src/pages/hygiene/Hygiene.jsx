@@ -1,6 +1,9 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
+import ankur from "../../images/24-25/ankur.jpg"
+import abhishek from "../../images/24-25/abhi.JPG"
+
 
 function Hygiene() {
   document.title = "Hygiene Committee | Hostel Affairs";
@@ -120,7 +123,7 @@ function Hygiene() {
               <div class=" h-100 overflow-hidden  rounded-4">
                 <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
                   <img
-                    src={"./23-24/Pawan.jpg"}
+                    src={abhishek}
                     alt="Bootstrap"
                     width="75%"
                     style={{ contentFit: "cover" }}
@@ -130,17 +133,17 @@ function Hygiene() {
                     <li class="m-auto py-2">
                       <div className="d-flex flex-column m-auto ">
                         <h4 className="name text-primary text-center">
-                          Pawan Garg{" "}
+                          Abhishek Singh{" "}
                         </h4>
                         <h6 className="text-white mt-2">
                           {" "}
                           Overall Coordinator, Hygiene Committee{" "}
                         </h6>
                         <h7 className="text-white">
-                          <span>Email:</span> pawangarg102030@gmail.com
+                          <span>Email:</span> 210040005@iitb.ac.in
                         </h7>
                         <h7 className="text-white">
-                          <span>Phone:</span> 7354863392
+                          <span>Phone:</span> 7665843785
                         </h7>
                       </div>
                     </li>
@@ -153,7 +156,7 @@ function Hygiene() {
               <div class=" h-100 overflow-hidden  rounded-4">
                 <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
                   <img
-                    src={"./23-24/Naidu.jpg"}
+                    src={ankur}
                     alt="Bootstrap"
                     width="75%"
                     class="rounded-circle border border-white m-auto "
@@ -162,16 +165,16 @@ function Hygiene() {
                     <li class="m-auto py-2">
                       <div className="d-flex flex-column m-auto ">
                         <h4 className="name text-primary text-center">
-                          Nitish Naidu
+                          Ankur Raj
                         </h4>
                         <h6 className="text-white mt-2">
                           Overall Coordinator, Hygiene Committee
                         </h6>
                         <h7 className="text-white fs-6">
-                          <span>Email:</span> nitish2002.nn@gmail.com
+                          <span>Email:</span> 210010009@iitb.ac.in
                         </h7>
                         <h7 className="text-white">
-                          <span>Phone:</span> 9960683139
+                          <span>Phone:</span> 9571489154
                         </h7>
                       </div>
                     </li>
