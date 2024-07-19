@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
+import vikash from "../../images/24-25/vikas.jpg"
+import habg from "../../images/habg.jpg"
+
 
 
 // import { useEffect } from 'react';
@@ -13,7 +16,7 @@ function Home() {
     document.title = "Home | Hostel Affairs";
 
   return (
-    <div className='home' style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
+    <div className='home' style={{ backgroundImage: "url(./hostels/habg.jpg)", backgroundRepeat: "no-repeat", backgroundPosition: "center", height: "100%", backgroundAttachment: "fixed", backgroundSize: "cover" }}>
       <div className="landing">
         <Navbar/>
         <div className="welcome container w3-animate-zoom">
@@ -143,7 +146,7 @@ function Home() {
                 <p class="col-lg-10  fs-5 msg">Hostel Affairs council holds the responsibility to provide better facilities and improvise the standards of students’ stay at IIT Bombay. Any improvisation or addition of the Infrastructure requirements, Security, Hospital, Internet, Accommodation, Housekeeping, Sustainability and Eateries are governed by the Hostel Affairs council.</p>
               </div>
                <div class="col-md-10 mx-auto text-center col-lg-5">
-                <img src={"./pnglogo.png"} width="300px" alt="" />
+              <img src={"./hostels/pnglogo.png"} width="300px" alt="" />
               </div>
             </div>
           </div>
@@ -154,7 +157,7 @@ function Home() {
           <div class="container  col-xl-12 px-4 mt-5 ">
             <div class="row align-items-center g-lg-5 py-4">
               <div class="col-md-10 mx-auto text-center col-lg-5">
-                <img src={"./23-24/pratham.jpeg"} className="rounded-circle" width="300px" alt="" />
+              <img src={vikash} className="rounded-circle" width="300px" alt="" />
               </div>
               <div class="col-lg-7 px-5 text-center text-light text-lg-start">
                 <h1 class="about display-5 fw-bold lh-1  mb-3" >Message from GSHA</h1>
@@ -326,7 +329,7 @@ available during the day time. They are total 6 in number as of now and ...</p>
                 <p class="col-lg-10 ">
                   <p className="msg text-white fs-4"> Hostel Affairs Council consist of 16 Students led by elected General Secretry of Hostel Affairs responsible for different kind of work. </p>
                   <div className='py-2 '>
-                            <Link to="/ha-council" target="_blank"><button className="btn btn-primary ">View HA Council 2023-24</button></Link>
+                  <Link to="/ha-council" target="_blank"><button className="btn btn-primary ">View HA Council 2024-25</button></Link>
                   </div>
                 </p>
               </div>

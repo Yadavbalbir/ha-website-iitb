@@ -6,6 +6,7 @@ import HA2021 from './HA2021'
 import HA2122 from './HA2122'
 import HA2223 from './HA2223'
 import HA2324 from './HA2324'
+import HA2425 from './HA2425'
 import "./hacouncil.css"
 
 function HaCouncil() {
@@ -14,7 +15,8 @@ function HaCouncil() {
   return (
     <div className='bg-black' style={{backgroundImage:"url(./habg.jpg)", backgroundRepeat:"no-repeat",backgroundPosition:"center", height:"100%", backgroundAttachment:"fixed", backgroundSize:"cover"}}>
         <Navbar/>
-        <HA2324/>
+        <HA2425/>
+        {/* <HA2324/> */}
 
         {/* <HA2223/> */}
         
