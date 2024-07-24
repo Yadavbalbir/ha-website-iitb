@@ -1,0 +1,60 @@
+body {
+    background-image: url(../../images//habg.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.allocation-content {
+    text-align: center;
+    /* padding-top: 100px; */
+    margin: 7%;
+}
+
+.allocation-heading {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 56px;
+}
+
+.qr-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 300px;
+    /* Increase the width */
+    height: 300px;
+    /* Increase the height */
+}
+
+.qr-description {
+    color: white;
+    font-size: 18px;
+}
+
+
+.pdf-link {
+    color: white;
+    font-size: 18px;
+    background-color: #29bc5d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 2%;
+}
+
+.pdf-link:hover {
+    background-color: #e1133c;
+    color: white
+}

@@ -20,6 +20,7 @@ import HallManager from "./pages/hall-manager/HallManager";
 import Gulmohar from "./pages/gulmohar/Gulmohar";
 import FoodOutletRating from "./pages/foodRatings/FoodOutletRating";
 import Minutes from "./pages/minutes/Minutes";
+import Allocation from "./pages/hostel-allocation/Allocation";
 // import Navbar from "./components/navbar/Navbar";
 
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/alumi" element={<AlumiAffaris />} />
       <Route path="/ha-council" element={<HaCouncil />} />
+      <Route path="/hostel-allocation" element={<Allocation/>} />
       <Route path="/ir" element={<Ir />} />
       <Route path="/hospital" element={<Hospital />} />
       <Route path="/hostels" element={<Hostels />} />

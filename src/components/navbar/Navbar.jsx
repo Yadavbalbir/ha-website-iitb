@@ -23,6 +23,9 @@ function Navbar() {
            <Link className="nav-link text-white fs-5" aria-current="page" to="/ha-council" >HA Council</Link>
         </li>
         <li class="nav-item">
+           <Link className="nav-link text-white fs-5" aria-current="page" to="/hostel-allocation" >Hostel Allocation</Link>
+        </li>
+        <li class="nav-item">
            <Link className="nav-link text-white fs-5" aria-current="page" to="/alumi">Alumni Affairs</Link>
         </li>
 
