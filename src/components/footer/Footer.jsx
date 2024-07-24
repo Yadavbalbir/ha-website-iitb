@@ -46,7 +46,7 @@ function Footer() {
     </div> */}
 
     <div class="d-flex flex-column flex-sm-row justify-content-between ">
-      <p className='text-primary'>© 2023 Hostel Affairs Council, Inc. All rights reserved.</p>
+            <p className='text-primary'>© 2024 Hostel Affairs Council, Inc. All rights reserved.</p>
       <ul class="list-unstyled d-flex align-items-center">
         {/* <li class="ms-3 fs-6 text-white">Developed by Balbir Yadav</li> */}
         <li class="ms-3"><a class="link-dark" href="https://github.com/Atharv140903"><i className='bi bi-github github fs-5'></i></a></li>
