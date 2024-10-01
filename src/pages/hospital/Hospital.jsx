@@ -32,15 +32,15 @@ function Hospital() {
               hospital.
             </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="https://www.iitb.ac.in/hospital/">
+              {/* <a href="https://www.iitb.ac.in/hospital/">
                 <button
                   type="button"
                   class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
                 >
                   IITB Hospital Website
                 </button>
-              </a>
-              <a href="https://gymkhana.iitb.ac.in/HospitalFeedback/index.php">
+              </a> */}
+              <a href="https://forms.gle/Qkpa3jLvn28VsTt99">
                 <button
                   type="button"
                   class="btn btn-outline-light btn-lg px-4 me-sm-3"
@@ -48,7 +48,7 @@ function Hospital() {
                   Hospital Feedback
                 </button>
               </a>
-              <a href="https://gymkhana.iitb.ac.in/~hostels/Hospital_Guidebook.pdf">
+              <a href="https://forms.gle/Qkpa3jLvn28VsTt99">
                 <button
                   type="button"
                   class="btn btn-outline-danger btn-lg px-4 "
